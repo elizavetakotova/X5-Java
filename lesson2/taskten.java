@@ -14,7 +14,7 @@ public class taskten{
                     A[i] = b;}
             }
         }
-        System.out.println("РќРѕРІС‹Р№ РјР°СЃСЃРёРІ: ");
+        System.out.println("Новый массив: ");
         for (int i = 0; i < n; i++)
             System.out.println(A[i]);
     }

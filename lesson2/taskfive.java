@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class taskfive{
     public static void main (String [] args)
     {
-        System.out.println("Р’РІРµРґРёС‚Рµ 3 С‡РёСЃР»Р°: ");
+        System.out.println("Введите 3 числа: ");
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();
         if ((a < b) && (a < c))
-            System.out.println("РќР°РёРјРµРЅСЊС€РµРµ С‡РёСЃР»Рѕ = " + a);
+            System.out.println("Наименьшее число = " + a);
         else if ((b < a) && (b < c))
-            System.out.println("РќР°РёРјРµРЅСЊС€РµРµ С‡РёСЃР»Рѕ = " + b);
+            System.out.println("Наименьшее число = " + b);
         else
-            System.out.println("РќР°РёРјРµРЅСЊС€РµРµ С‡РёСЃР»Рѕ = " + c);
+            System.out.println("Наименьшее число = " + c);
     }
 }

@@ -14,25 +14,25 @@ public class taskeight{
             if (max < A[i])
                 max = A[i];
         }
-        System.out.println("РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РјР°СЃСЃРёРІР° = " + max);
+        System.out.println("Максимальное значение массива = " + max);
 
         for (int i = 0; i < 14; i++) {
             if (A[i] > 0)
                 sump = sump + A[i];
         }
-        System.out.println("РЎСѓРјРјР° РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ = " + sump);
+        System.out.println("Сумма положительных элементов = " + sump);
 
         for (int i = 0; i < 14; i++) {
             if ((A[i] < 0) && (A[i]%2==0))
                 sumcho = sumcho + A[i];
         }
-        System.out.println("РЎСѓРјРјР° С‡РµС‚РЅС‹С… РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ = " + sumcho);
+        System.out.println("Сумма четных отрицательных элементов = " + sumcho);
 
         for (int i = 0; i < 14; i++) {
             if ((A[i] > 0))
                 kolpe = kolpe + 1;
         }
-        System.out.println("РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ = " + kolpe);
+        System.out.println("Количество положительных элементов = " + kolpe);
 
         for (int i = 0; i < 14; i++) {
             if ((A[i] < 0)){
@@ -40,6 +40,6 @@ public class taskeight{
                 kol = kol + 1;}
         }
         sar = sum/kol;
-        System.out.println("РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ = " + sar);
+        System.out.println("Среднее арифметическое отрицательных элементов = " + sar);
     }
 }

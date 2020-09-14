@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class taskfour{
     public static void main (String [] args)
     {
-        System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ");
+        System.out.println("Ââåäèòå ÷èñëî: ");
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         if (a > 0)
